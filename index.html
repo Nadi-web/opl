@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Билеты</title>
+</head>
+<body>
+     <div class="form-container">
+        <form id="ticketForm" class="col form">
+            <h2 style="color: white;">Введите данные для билета</h2>
+            <label for="routeNumber">Номер маршрута:</label>
+            <input type="text" class="input" id="routeNumber" name="routeNumber" placeholder="8636 AT" required>
+            
+            <label for="avto">Номер автобуса:</label>
+            <input type="text" class="input" id="avto" name="avto" placeholder="115э" required>
+
+            <label for="way">Маршрут:</label>
+            <input type="text" class="input" id="way" name="way" placeholder="АВ 'Центральный' — Турдиспансер" required>
+
+            <label for="carNumber">Номер ТС:</label>
+            <input type="text" class="input" id="carNumber" name="carNumber" placeholder="0101929" required>
+
+            <button type="submit" class="form-btn">Создать билет</button>
+        </form>
+    </div>
+
+    <!-- Электронный билет -->
+    <!-- <div class="ticket-container" id="ticketContainer" style="display: none;">
+        <div class="ticket">
+            <h2>Минск</h2>
+            <p>Государственное предприятие "Минсктранс"</p>
+            <div class="qr-code">
+                <img src="qr-code-placeholder.png" alt="QR код">
+            </div>
+            <p id="routeDisplay">Рег.знак: <span id="routeOutput"></span></p>
+            <p id="carNumberDisplay">Номер ТС: <span id="carNumberOutput"></span></p>
+            <p id="wayDisplay">Номер билета: <span id="wayOutput"></span></p>
+            <p>Дата покупки: <span id="purchaseDate"></span></p>
+            <p>Время: <span id="purchaseTime"></span></p>
+            <p>0,85 BYN</p>
+            <button onclick="location.reload()">Вернуться к форме</button>
+        </div>
+    </div> -->
+
+    <div class="col ticket-container" id="ticketContainer" style="display: none;">
+        <div class="row high-row">
+            <img src="./img/cross.png" alt="" class="cross" onclick="location.reload()">
+            <p class="white">Билеты</p>
+            <img src="./img/question.png" alt="">
+        </div>
+
+        <div class="ticket col">
+            <div class="logo-cintainer col">
+                <img src="./img/logo.png" alt="" class="logo">
+            </div>
+
+            <div class="container col">
+                <h2 class="city">Минск</h2>
+            <p class="gray trans">Государственное предприятие  "Минсктранс"</p>
+            <div class="qr-code">
+                <img src="./img/qr.png" class="qr" alt="QR код">
+            </div>
+
+            <div class="icons-container row">
+                <img src="./img/a1.png" alt="">
+                <img src="./img/a2.png" alt="">
+                <img src="./img/a3.png" alt="">
+                <img src="./img/a4.png" alt="">
+            </div>
+
+            <span class="info">Рег знак: <span id="routeOutput"></span> A_№<span id="avtoOutput"></span> (<span id="wayOutput"></span>)</span>
+
+            <div class="num-info row">
+                <div class="col num-info-col left">
+                    <p class="col left gray" id="carNumberDisplay">Номер ТС<span class="black underline" id="carNumberOutput"></span></p>
+                    <p class="col left gray">Дата покупки<span class="black" id="purchaseDate"></span></p>
+                </div>
+                <div class="col num-info-col right">
+                    <p class="col right gray">Номер билета<span class="black">ES058400689</span></p>
+                    <p class="col right gray">Время<span class="black" id="purchaseTime"></span></p>
+                </div>
+            </div>
+            </div>
+
+            <div class="down col">
+                <span class="price row">0,85 <p  class="small">BYN</p></span>
+                <p class="gray">Разовый</p>
+            </div>
+        </div>
+
+        <div class="buy-btn row">Купить</div>
+
+        <div class="down-bar row">
+            <img src="./img/db1.png" alt="">
+            <img src="./img/db2.png" alt="">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

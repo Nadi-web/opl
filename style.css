@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: "Inter Tight";
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gray{
+    color: #999999;
+    font-weight: 300;
+}
+
+.white{
+    color: white;
+    font-weight: 300;
+}
+
+.black{
+    color: black;
+    font-weight: 500;
+}
+
+.underline{
+    border-bottom: 1px black solid;
+}
+
+label{
+    color: #f1f1f1;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.input {
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    outline: 0 !important;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 12px 15px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.left{
+    align-items: flex-start;
+}
+
+.right{
+    align-self: flex-end;
+}
+
+.form-btn {
+    padding: 10px 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border: 0 !important;
+    outline: 0 !important;
+    background: rgb(7, 241, 132);
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 15px;
+}
+
+.high-row{
+    width: 90%;
+    padding-top: 15px;
+}
+
+.cross{
+    width: 25px;
+    height: 25px;
+}
+
+.ticket-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+}
+
+.ticket {
+    background-color: #fff;
+    width: 94%;
+    height: 570px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: space-between;
+}
+
+.container{
+    height: 78%;
+    justify-content: center;
+}
+
+.city{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 9px 0 3px 0;
+}
+
+.trans{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.logo-cintainer{
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(7, 241, 132);
+    width: 100%;
+    height: 50px;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    margin: 10px;
+}
+
+.qr{
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.icons-container{
+    gap: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.info{
+    width: 90%;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.num-info{
+    width: 90%;
+}
+
+.num-info-col{
+    gap: 7px;
+}
+
+.price{
+    font-size: 32px;
+    font-weight: 500;
+    align-items: flex-end;
+    font-family: "Inter Tight";
+}
+
+.small{
+    font-size: 16px;
+    margin: 0 0 5px 5px !important;
+}
+
+.down .gray{
+    margin: 0;
+}
+
+.down{
+    margin-bottom: 10px;
+}
+
+.buy-btn{
+    width: 94%;
+    border-radius: 7px;
+    background-color: #1367ff;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    justify-content: center;
+    margin-bottom: -55px;
+}
+
+.down-bar{
+    height: 70px;
+    width: 150%;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    border-top: 0.5px #444444 solid;
+
+    
+}
+
+.down-bar img{
+    height: 60px;
+    object-fit: cover;
+}
