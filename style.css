@@ -214,13 +214,12 @@ label{
 }
 
 .down-bar{
-    height: 70px;
-    width: 150%;
+   height: 70px;
+    width: 100%;
     justify-content: space-evenly;
     padding: 10px 0;
     border-top: 0.5px #444444 solid;
-
-    
+    gap: 30%;
 }
 
 .down-bar img{
