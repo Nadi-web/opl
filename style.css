@@ -210,7 +210,7 @@ label{
     font-size: 20px;
     font-weight: 300;
     justify-content: center;
-    margin-bottom: -55px;
+    /* margin-bottom: -55px; */
 }
 
 .down-bar{
