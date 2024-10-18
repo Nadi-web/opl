@@ -167,8 +167,10 @@ label{
 }
 
 .info{
-    width: 90%;
-    font-size: 20px;
+    width: 95%;
+    word-break: break-all;
+    hyphens: auto;
+    font-size: 18px;
     line-height: 20px;
     margin-bottom: 10px;
 }
