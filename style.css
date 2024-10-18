@@ -110,7 +110,7 @@ label{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     background-color: #181818;
 }
 
@@ -214,15 +214,16 @@ label{
 }
 
 .down-bar{
-   height: 70px;
+    height: 60px;
     width: 100%;
     justify-content: space-evenly;
-    padding: 10px 0;
+    padding: 7px 0;
     border-top: 0.5px #444444 solid;
     gap: 30%;
+    
 }
 
 .down-bar img{
-    height: 60px;
+    height: 50px;
     object-fit: cover;
 }
